@@ -48,7 +48,7 @@ const RecentlyWatched = () => {
                   alt="recently watched anime"
                   className="h-full peer duration-150 hover:blur-md w-full object-cover"
                 />
-                <p className="bg-rose-600 text-xs px-2 py-1 font-semibold absolute bottom-2 rounded-md left-2 text-white">
+                <p className="bg-red-800 text-xs px-2 py-1 font-semibold absolute bottom-2 rounded-md left-2 text-white">
                   EPISODE : {anime.episodeNumber}
                 </p>
               </a>

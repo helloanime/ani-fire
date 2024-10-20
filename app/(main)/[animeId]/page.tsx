@@ -106,7 +106,7 @@ const AnimePage = ({ params, searchParams }: InfoPageProps) => {
                       </h5>
                       </a>
                       <div className="flex h-5 mt-2 items-center border w-fit pr-2 overflow-hidden text-xs">
-                        <p className="bg-rose-600 dark:text-black text-white flex items-center text-xs px-2 py-1 font-normal">
+                        <p className="bg-red-800 dark:text-black text-white flex items-center text-xs px-2 py-1 font-normal">
                           <span><FaClosedCaptioning size={17} className="mr-1" /></span> {anime.episodes.sub || 0}
                         </p>
                         <p className="text-xs flex dark:bg-black px-2 items-center gap-x-1">

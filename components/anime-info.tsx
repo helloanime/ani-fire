@@ -86,7 +86,7 @@ const AnimeInfo = ({
             <div className="flex my-4">
               <Button
                 asChild
-                className="bg-rose-600 rounded-full hover:bg-rose-700"
+                className="bg-red-800 rounded-full hover:bg-rose-700"
               >
                 <a href={isRedirectToLatest ? `/watch/${episode?.episodes[0].episodeId}&ref=latest` : `/watch/${episode?.episodes[0].episodeId}`}>
                   <FaPlay className="mr-2" /> Watch {isRedirectToLatest ? "latest" : "now"}

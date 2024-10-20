@@ -30,7 +30,7 @@ const AnimeCard = ({ anime, type, latestLink } : AnimeCardProps ) => {
           <FaPlay className="w-10 h-10" />
         </div>
         <div className="flex text-white dark:text-black z-20 absolute rounded-md overflow-hidden bottom-2 left-2">
-          <p className="bg-rose-600 text-xs px-2 py-1 font-bold">
+          <p className="bg-red-800 text-xs px-2 py-1 font-bold">
             CC: {anime.episodes.sub || 0}
           </p>
           <p className="text-xs flex bg-black dark:text-white px-2 items-center gap-x-1">
