@@ -11,7 +11,7 @@ const SearchPageLoading = () => {
       </div>
 
       <div className="w-full h-auto my-6">
-        <h2 className="flex gap-4 items-center text-2xl text-primary font-semibold">Searching results for
+        <h2 className="flex gap-4 items-center text-2xl text-[white] font-semibold">Searching results for
           <Skeleton className="w-36 h-6" />
         </h2>
 

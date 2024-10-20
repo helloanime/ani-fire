@@ -184,7 +184,7 @@ const HomePage = () => {
 
       <div className="mt-6 w-full px-4">
         <div className="flex justify-between items-center">
-          <h6 className="text-2xl text-primary font-semibold">
+          <h6 className="text-2xl text-[white] font-semibold">
             Latest Episode
           </h6>
           <p className="flex items-center text-xs gap-x-4">

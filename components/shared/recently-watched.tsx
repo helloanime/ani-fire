@@ -34,7 +34,7 @@ const RecentlyWatched = () => {
 
   return (
     <section className="px-4">
-      <h3 className="text-2xl text-primary font-semibold">Continue Watching</h3>
+      <h3 className="text-2xl text-[white] font-semibold">Continue Watching</h3>
       <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-7 xs:grid-cols-5 grid-cols-3 my-6 gap-4 w-full">
         {watchedData?.slice(0, 8)
           ?.map((anime) => (
