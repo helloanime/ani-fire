@@ -38,7 +38,7 @@ const HomePage = () => {
           <h1 className="text-center text-2xl">{data?.status} {data?.message}</h1>
           <p className="text-center">
             Checkout this{" "}
-            <a className="text-primary underline" href="https://anixplay.xyz/">AniFire Beta</a>
+            <a className="text-primary underline" href="https://anixplay.xyz/">Anixplay Beta</a>
           </p>
         </div>
       </div>

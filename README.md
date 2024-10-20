@@ -6,8 +6,8 @@
 <img src="/public/ani-fire-cover.png" alt="banner image"/>
 
 <h1 align="center">
-  <img src="/public/assets/nav.gif" alt="anifire logo" width="66" /> </br>
-  Anifire: Anime streaming website
+  <img src="/public/assets/nav.gif" alt="Anixplay logo" width="66" /> </br>
+  Anixplay: Anime streaming website
 </h1>
 
 <p align="center">

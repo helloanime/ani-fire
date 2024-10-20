@@ -83,7 +83,7 @@ const LoginForm = () => {
                   <FormControl>
                     <Input
                       disabled={isPending}
-                      placeholder="anifire@example.com"
+                      placeholder="Anixplay@example.com"
                       type="email"
                       {...field}
                     />

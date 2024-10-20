@@ -22,17 +22,17 @@ export async function generateMetadata({
   );
   return {
     metadataBase: new URL(URI),
-    title: `Watching Episode ${isCurrentEpisode?.number} | ${info?.anime.info.name} | AniFire`,
+    title: `Watching Episode ${isCurrentEpisode?.number} | ${info?.anime.info.name} | Anixplay`,
     generator: "Next.js",
-    applicationName: "Anifire App",
+    applicationName: "Anixplay App",
     description: info?.anime.info.description,
-    keywords: ["anime", "free anime", "no-ads", "no-popups", "anifire", info?.anime.info.name || "", `watch ${info?.anime.info.id} on Anifire`, `Watch ${info?.anime.info.name} on Anifire`],
+    keywords: ["anime", "free anime", "no-ads", "no-popups", "Anixplay", info?.anime.info.name || "", `watch ${info?.anime.info.id} on Anixplay`, `Watch ${info?.anime.info.name} on Anixplay`],
     authors: [{ name: "Sahil Ahmed", url: "https://github.com/zeddxx" }],
     creator: "Sahil Ahmed | Zeddxx",
     publisher: "Sahil Ahmed | Zeddxx",
     openGraph: {
       description: info?.anime.info.description,
-      title: `Watch ${isCurrentEpisode?.title ? isCurrentEpisode.title : `Episode ${isCurrentEpisode?.number}`} Exclusively on AniFire without any popups or ads.`,
+      title: `Watch ${isCurrentEpisode?.title ? isCurrentEpisode.title : `Episode ${isCurrentEpisode?.number}`} Exclusively on Anixplay without any popups or ads.`,
     },
     alternates: {
         canonical: "https://ani-fire.vercel.app",
@@ -42,7 +42,7 @@ export async function generateMetadata({
       },
       twitter: {
         card: "summary",
-        title: `Watch ${isCurrentEpisode?.title ? isCurrentEpisode.title : `Episode ${isCurrentEpisode?.number}`} from (${info?.anime.info.name}) Exclusively on AniFire without any popups or ads.`,
+        title: `Watch ${isCurrentEpisode?.title ? isCurrentEpisode.title : `Episode ${isCurrentEpisode?.number}`} from (${info?.anime.info.name}) Exclusively on Anixplay without any popups or ads.`,
         description: info?.anime.info.description,
         siteId: `https://ani-fire.vercel.app/${info?.anime.info.id}`,
         creator: "@Zeddxx",

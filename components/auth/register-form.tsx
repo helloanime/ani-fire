@@ -71,7 +71,7 @@ const RegisterForm = () => {
                 <FormItem>
                   <FormLabel>Email</FormLabel>
                   <FormControl>
-                    <Input disabled={isPending} type="email" placeholder="anifire@example.com" {...field} />
+                    <Input disabled={isPending} type="email" placeholder="Anixplay@example.com" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

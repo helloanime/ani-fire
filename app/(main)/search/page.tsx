@@ -20,7 +20,7 @@ const SearchPage = () => {
 
   useEffect(() => {
     if(typeof window !== "undefined") {
-      window.document.title = `${query} | AniFire`
+      window.document.title = `${query} | Anixplay`
     }
   }, [query])
 

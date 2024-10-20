@@ -23,7 +23,7 @@ const AnimePage = ({ params, searchParams }: InfoPageProps) => {
 
   useEffect(() => {
     if(typeof window !== "undefined" && !!data) {
-      window.document.title = `${data?.anime.info.name} | AniFire`
+      window.document.title = `${data?.anime.info.name} | Anixplay`
     }
   }, [data])
 

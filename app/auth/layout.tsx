@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "AniFire | Authentication",
-    description: "Login or Create a Account for your favorite anime streaming application! AniFire."
+    title: "Anixplay | Authentication",
+    description: "Login or Create a Account for your favorite anime streaming application! Anixplay."
 }
 
 export default function AuthLayout({

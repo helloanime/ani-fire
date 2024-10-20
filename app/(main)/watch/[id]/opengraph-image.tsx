@@ -4,7 +4,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 
-export const alt = "Anifire beta anime description.";
+export const alt = "Anixplay beta anime description.";
 export const size = {
   width: 1200,
   height: 630,
