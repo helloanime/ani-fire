@@ -52,7 +52,7 @@ const Dashboard = () => {
           <div className="mt-4 border-t border-muted pt-4">
             <h2 className="text-2xl font-medium">Activity</h2>
             {/* <div className="grid grid-cols-2">
-              <Button className="rounded-none bg-primary hover:bg-primary/90 hover:text-white text-white border-b border-muted" variant="ghost">
+              <Button className="rounded-none bg-primary hover:bg-primary/10 hover:text-white text-white border-b border-muted" variant="ghost">
                   <MessageCircle className="h-5 w-5" />
                   <p className="ml-2">
                     <span className="hidden sm:inline">Total comments:</span> {comments?.length}
