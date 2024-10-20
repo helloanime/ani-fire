@@ -17,7 +17,7 @@ const SearchPageLoading = () => {
 
         <div className="grid lg:grid-cols-5 sm:grid-cols-4 xs:grid-cols-3 grid-cols-2 my-6 gap-4 w-full">
           {Array.from({ length: 10 }).map((_, index) => (
-            <Skeleton key={index} className="rounded-md w-full h-[30vw] max-h-80 lg:max-h-64 min-h-60 overflow-hidden relative" />
+            <Skeleton key={index} className="rounded-md w-full h-[30vw] max-h-[13rem] lg:max-h-[13rem] min-h-[13rem] overflow-hidden relative" />
           ))}
         </div>
       </div>

@@ -41,7 +41,7 @@ const RecentlyWatched = () => {
             <div className="flex flex-col relative" key={anime.episodeId}>
               <a
                 href={`/watch/${anime.episodeId}`}
-                className="rounded-md w-full h-[30vw] max-h-[13rem] lg:max-h-80 min-h-[13rem] overflow-hidden relative"
+                className="rounded-md w-full h-[30vw] max-h-[13rem] lg:max-h-[13rem] min-h-[13rem] overflow-hidden relative"
               >
                 <img
                   src={anime.poster}
