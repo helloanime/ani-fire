@@ -27,7 +27,7 @@ export async function generateMetadata({
     applicationName: "Anixplay App",
     description: info?.anime.info.description,
     keywords: ["anime", "free anime", "no-ads", "no-popups", "Anixplay", info?.anime.info.name || "", `watch ${info?.anime.info.id} on Anixplay`, `Watch ${info?.anime.info.name} on Anixplay`],
-    authors: [{ name: "Sahil Ahmed", url: "https://github.com/zeddxx" }],
+    authors: [{ name: "", url: "" }],
     creator: "Sahil Ahmed | Zeddxx",
     publisher: "Sahil Ahmed | Zeddxx",
     openGraph: {

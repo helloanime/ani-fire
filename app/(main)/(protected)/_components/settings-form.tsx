@@ -60,7 +60,7 @@ const SettingsForm = () => {
               "Please contact the developer as he is lazy to fix this error i guess! 🥹",
             action: (
               <ToastAction asChild altText="Report Error">
-                <a href="https://github.com/zeddxx" target="_blank">
+                <a href="" target="_blank">
                   Message Dev
                 </a>
               </ToastAction>
@@ -82,7 +82,7 @@ const SettingsForm = () => {
               title: "Error Updating Profile",
               description: "Eventually this error is occuring due to laziness of out developer. please contact him. 💀",
               action: <ToastAction asChild altText="Github">
-                <a href="https://github.com/zeddxx" target="_blank">
+                <a href="" target="_blank">
                   Github
                 </a>
               </ToastAction>
@@ -94,7 +94,7 @@ const SettingsForm = () => {
               title: "Profile updated successfully! 🎉",
               description: "Loved this project give this project a ⭐",
               action: <ToastAction asChild altText="Github">
-                <a href="https://github.com/zeddxx" target="_blank">
+                <a href="" target="_blank">
                   Github
                 </a>
               </ToastAction>
