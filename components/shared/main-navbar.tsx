@@ -28,22 +28,16 @@ const MainNavbar = () => {
         )}
       >
         <nav className="flex justify-between items-center max-w-screen-2xl z-20 mx-auto w-full">
-          <div className="flex gap-x-4 items-center">
+          <div className="flex items-center">
             <ToggleMenuBtn />
 
             <Link href="/home">
-              <img
-                src="/assets/nav.gif"
-                alt="logo"
-                loading="eager"
-                height={56}
-                width={56}
-              />
-            </Link>
-            <p className="text-3xl font-logo text-secondary-foreground dark:text-white leading-none md-text-xl">
+              <p className="text-3xl font-logo text-secondary-foreground dark:text-white leading-none md-text-xl">
              Anix
             <span className="text-[#db1400]">Play</span>
             </p>
+            </Link>
+            
           </div>
 
           <ul className="lg:flex gap-4 hidden">
