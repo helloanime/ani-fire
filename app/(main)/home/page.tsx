@@ -54,7 +54,7 @@ const HomePage = () => {
       <div className="w-full px-4 my-10">
         <h2 className="text-2xl text-primary font-semibold mb-6">Trending</h2>
 
-        <div className="relative lg:pr-16 mt-[-50px]">
+        <div className="relative lg:pr-16 mt-[-15px]">
           <ReactSimplyCarousel
             activeSlideIndex={activeSlideIndex}
             onRequestChange={setActiveSlideIndex}
@@ -159,7 +159,7 @@ const HomePage = () => {
 
                   <a
                     href={`/${anime.id}`}
-                    className="w-[9rem] user-drag select-none flex-shrink-0 h-[13rem] relative"
+                    className="w-[8rem] user-drag select-none flex-shrink-0 h-[12rem] relative"
                   >
                     <img
                       src={anime.poster}
