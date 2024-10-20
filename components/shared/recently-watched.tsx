@@ -35,7 +35,7 @@ const RecentlyWatched = () => {
   return (
     <section className="px-4">
       <h3 className="text-2xl text-primary font-semibold">Continue Watching</h3>
-      <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-6 xs:grid-cols-5 grid-cols-4 my-6 gap-4 w-full">
+      <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-7 xs:grid-cols-5 grid-cols-3 my-6 gap-4 w-full">
         {watchedData?.slice(0, 8)
           ?.map((anime) => (
             <div className="flex flex-col relative" key={anime.episodeId}>
