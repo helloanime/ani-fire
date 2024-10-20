@@ -159,7 +159,7 @@ const HomePage = () => {
 
                   <a
                     href={`/${anime.id}`}
-                    className="w-48 user-drag select-none flex-shrink-0 h-64 relative"
+                    className="w-[9rem] user-drag select-none flex-shrink-0 h-[13rem] relative"
                   >
                     <img
                       src={anime.poster}
