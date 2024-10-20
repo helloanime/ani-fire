@@ -14,7 +14,7 @@ const HomeLoading = () => {
         </Skeleton>
 
         <div className="w-full px-4 my-10">
-          <h2 className="text-2xl text-primary font-semibold mb-6">Trending</h2>
+          <h2 className="text-2xl text-[white] font-semibold mb-6">Trending</h2>
 
           <div className="flex gap-x-4 w-full relative before:absolute before:bottom-0 before:bg-gradient-to-t dark:before:from-black before:from-white before:via-transparent before:to-transparent before:z-10 before:h-full before:w-full overflow-x-auto scroll-hidden">
             {Array.from({ length: 6 }).map((_, index) => (
