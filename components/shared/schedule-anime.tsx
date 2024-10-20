@@ -96,7 +96,7 @@ const ScheduleAnime = () => {
   return (
     <>
       <div className="flex sm:flex-row flex-col gap-y-2 justify-between w-full">
-        <h6 className="text-2xl font-semibold text-primary">
+        <h6 className="capitalize text-2xl font-semibold text-[white]">
           Estimated Schedule
         </h6>
         <p className="font-semibold sm:py-0 py-2 text-sm bg-secondary flex gap-1 items-center px-3 rounded-full">

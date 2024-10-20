@@ -25,7 +25,7 @@ const CategoryAnimesPage = ({ params } : { params : { category: string }}) => {
 
   return (
     <section className="max-w-screen-2xl mx-auto px-4 pt-4">
-        <h1 className="capitalize text-2xl font-semibold text-primary">{query.split("-").join(" ")}</h1>    
+        <h1 className="capitalize text-2xl font-semibold text-[white]">{query.split("-").join(" ")}</h1>    
 
         <div className="grid xl:grid-cols-6 lg:grid-cols-5 sm:grid-cols-4 xs:grid-cols-3 grid-cols-2 my-6 gap-4 w-full">
           {data?.animes.map((anime, index) => (

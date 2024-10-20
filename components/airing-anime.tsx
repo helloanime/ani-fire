@@ -17,7 +17,7 @@ const AiringAnime = ({ anime }: { anime: HomeAnimeProps }) => {
     <>
     {/* Top airing animes */}
       <div className="px-4">
-        <h3 className="text-2xl font-semibold text-primary my-3">Top Airing</h3>
+        <h3 className="text-2xl font-semibold text-[white] my-3">Top Airing</h3>
         <div className="">
           {topAiring?.animes?.slice(0, 5).map((anime, index) => (
             <div
@@ -71,7 +71,7 @@ const AiringAnime = ({ anime }: { anime: HomeAnimeProps }) => {
 
       {/* Most popular animes */}
       <div className="px-4">
-        <h3 className="text-2xl font-semibold text-primary my-3">
+        <h3 className="text-2xl font-semibold text-[white] my-3">
           Most Popular
         </h3>
         <div className="">
@@ -127,7 +127,7 @@ const AiringAnime = ({ anime }: { anime: HomeAnimeProps }) => {
 
       {/* Most favorite anime */}
       <div className="px-4">
-        <h3 className="text-2xl font-semibold text-primary my-3">
+        <h3 className="text-2xl font-semibold text-[white] my-3">
           Most Favorite
         </h3>
         <div className="h-fit">
@@ -184,7 +184,7 @@ const AiringAnime = ({ anime }: { anime: HomeAnimeProps }) => {
 
       {/* Completed animes */}
       <div className="px-4">
-        <h3 className="text-2xl font-semibold text-primary my-3">
+        <h3 className="text-2xl font-semibold text-[white] my-3">
           Completed Anime
         </h3>
         <div className="">
