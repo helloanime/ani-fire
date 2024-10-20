@@ -19,7 +19,7 @@ const logoFont = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'AnimeFire | Watch anime without any ads!',
+  title: 'Anixplay | Watch anime without any ads!',
   description: 'Anixplay is a anime streaming free website where you can watch any anime for free with-out any ads and popups.',
 }
 
