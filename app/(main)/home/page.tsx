@@ -54,7 +54,7 @@ const HomePage = () => {
       <div className="w-full px-4 my-10">
         <h2 className="text-2xl text-primary font-semibold mb-6">Trending</h2>
 
-        <div className="relative lg:pr-16">
+        <div className="relative lg:pr-16 mb-[-50px]">
           <ReactSimplyCarousel
             activeSlideIndex={activeSlideIndex}
             onRequestChange={setActiveSlideIndex}
