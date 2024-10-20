@@ -18,7 +18,7 @@ const GenrePage = ({ params }: { params: { name: string } }) => {
       <h1 className="capitalize text-2xl font-semibold text-[white] mb-3">
         {data?.genreName}
       </h1>
-      <div className="grid xl:grid-cols-6 lg:grid-cols-5 sm:grid-cols-4 xs:grid-cols-3 grid-cols-2 my-6 gap-4 w-full">
+      <div className="grid xl:grid-cols-8 lg:grid-cols-7 sm:grid-cols-6 xs:grid-cols-5 grid-cols-3 my-6 gap-4 w-full text-[10px]">
         {data?.animes.map((anime, index) => (
           <AnimeCard type="Normal" anime={anime} key={anime.id + index} />
         ))}

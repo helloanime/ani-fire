@@ -247,7 +247,7 @@ const MainPage = ({ params, query, episodeNumber }: MainPageProps) => {
       <div className="2xl:max-w-screen-2xl mx-auto px-4 w-full h-auto">
         <h3 className="text-2xl text-white font-bold">Related Anime</h3>
 
-        <div className="grid xl:grid-cols-6 lg:grid-cols-5 sm:grid-cols-4 xs:grid-cols-3 grid-cols-2 my-6 gap-4 w-full">
+        <div className="grid xl:grid-cols-8 lg:grid-cols-7 sm:grid-cols-6 xs:grid-cols-5 grid-cols-3 my-6 gap-4 w-full text-[10px]">
           {animeInfo?.relatedAnimes.map((anime, index) => (
             <AnimeCard type="Normal" anime={anime} key={anime.id + index} />
           ))}

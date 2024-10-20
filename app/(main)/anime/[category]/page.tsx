@@ -27,7 +27,7 @@ const CategoryAnimesPage = ({ params } : { params : { category: string }}) => {
     <section className="max-w-screen-2xl mx-auto px-4 pt-4">
         <h1 className="capitalize text-2xl font-semibold text-[white]">{query.split("-").join(" ")}</h1>    
 
-        <div className="grid xl:grid-cols-6 lg:grid-cols-5 sm:grid-cols-4 xs:grid-cols-3 grid-cols-2 my-6 gap-4 w-full">
+        <div className="grid xl:grid-cols-8 lg:grid-cols-7 sm:grid-cols-6 xs:grid-cols-5 grid-cols-3 my-6 gap-4 w-full text-[10px]">
           {data?.animes.map((anime, index) => (
             <AnimeCard type="Normal" key={anime.id + index} anime={anime} />
           ))}

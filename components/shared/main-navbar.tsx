@@ -40,6 +40,10 @@ const MainNavbar = () => {
                 width={56}
               />
             </Link>
+            <p className="text-3xl font-logo text-secondary-foreground dark:text-white leading-none md-text-xl">
+             Anix
+            <span className="text-[#db1400]">Play</span>
+            </p>
           </div>
 
           <ul className="lg:flex gap-4 hidden">
