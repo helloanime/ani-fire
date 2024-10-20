@@ -128,7 +128,7 @@ const MainPage = ({ params, query, episodeNumber }: MainPageProps) => {
       </div>
 
       {/* main episodes no. and video player here! */}
-      <div className="2xl:max-w-screen-2xl lg:max-w-5xl px-4 mx-auto w-full flex 2xl:flex-row flex-col h-auto">
+      <div className="2xl:max-w-screen-2xl lg:max-w-10xl px-4 mx-auto w-full flex 2xl:flex-row flex-col h-auto">
         {isEpisodeLoading && !episodes ? (
           <p>Loading...</p>
         ) : (
@@ -151,7 +151,7 @@ const MainPage = ({ params, query, episodeNumber }: MainPageProps) => {
             />
           )}
 
-          <div className="w-full 2xl:max-w-screen-2xl lg:max-w-5xl gap-x-2 py-4 h-auto flex justify-end items-center">
+          <div className="w-full 2xl:max-w-screen-2xl lg:max-w-10xl gap-x-2 py-4 h-auto flex justify-end items-center">
             <Button
               size="sm"
               variant="outline"
