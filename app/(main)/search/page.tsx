@@ -75,7 +75,7 @@ const SearchPage = () => {
             </h2>
             {data?.animes.length! > 0 ? (
               <>
-                <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-7 xs:grid-cols-5 grid-cols-3 my-6 gap-4 w-full text-[11px]">
+                <div className="grid xl:grid-cols-9 lg:grid-cols-7 md:grid-cols-7 xs:grid-cols-5 grid-cols-3 my-6 gap-4 w-full text-[11px]">
                   {data?.animes.map((anime) => (
                     <AnimeCard type="Normal" key={anime.id} anime={anime} />
                   ))}

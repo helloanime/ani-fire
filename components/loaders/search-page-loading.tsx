@@ -15,7 +15,7 @@ const SearchPageLoading = () => {
           <Skeleton className="w-36 h-6" />
         </h2>
 
-        <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-7 xs:grid-cols-5 grid-cols-3 my-6 gap-4 w-full text-[11px]">
+        <div className="grid xl:grid-cols-9 lg:grid-cols-7 md:grid-cols-7 xs:grid-cols-5 grid-cols-3 my-6 gap-4 w-full text-[11px]">
           {Array.from({ length: 10 }).map((_, index) => (
             <Skeleton key={index} className="rounded-md w-full h-[30vw] max-h-[13rem] lg:max-h-[13rem] min-h-[13rem] overflow-hidden relative" />
           ))}
