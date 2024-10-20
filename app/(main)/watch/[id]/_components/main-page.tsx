@@ -102,7 +102,7 @@ const MainPage = ({ params, query, episodeNumber }: MainPageProps) => {
   return (
     <section className="relative w-full h-auto">
       {/* Flow Tree */}
-      <div className="flex text-sm my-4 2xl:max-w-screen-2xl lg:max-w-5xl mx-auto gap-x-1 items-center px-4">
+      <div className="flex text-sm my-4 2xl:max-w-screen-2xl mx-auto gap-x-1 items-center px-4">
         {/* TODO: make it working as link element */}
         <Link
           href="/home"
