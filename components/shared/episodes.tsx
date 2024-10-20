@@ -25,7 +25,7 @@ const Episodes = ({
           "dark:bg-black border border-muted bg-white episode-scroll overflow-y-scroll w-full relative",
           screen === "PC"
             ? "2xl:block hidden h-[30rem] max-w-[18rem]"
-            : "block xl:hidden max-h-72 w-full my-4"
+            : "block max-h-72 w-full my-4"
         )}
       >
         <div className="w-full dark:bg-black border-b border-muted sticky bg-white left-0 py-4 px-4 top-0">
