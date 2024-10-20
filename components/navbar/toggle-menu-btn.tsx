@@ -18,7 +18,10 @@ const ToggleMenuBtn = () => {
                 className="invert dark:invert-0"
                 width={24}
               />
-              <span className="md:block hidden">Menu</span>
+              <p className="text-6xl font-logo text-secondary-foreground dark:text-white leading-none">
+               ani
+              <span className="text-[#FF003D]">fire</span>
+              </p>
             </button>
   )
 }
