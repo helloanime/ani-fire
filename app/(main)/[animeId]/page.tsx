@@ -77,7 +77,7 @@ const AnimePage = ({ params, searchParams }: InfoPageProps) => {
       <div className="max-w-screen-2xl flex xl:flex-row flex-col gap-x-4 px-4 mx-auto w-full my-10 h-auto">
         <div className="w-full h-auto">
           <h3 className="text-2xl font-semibold">Recommanded Animes</h3>
-          <div className="grid xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-4 xs:grid-cols-3 grid-cols-2 my-6 gap-4 w-full">
+          <div className="grid xl:grid-cols-7 lg:grid-cols-7 md:grid-cols-6 sm:grid-cols-6 xs:grid-cols-5 grid-cols-3 my-6 gap-4 w-full">
             {data?.recommendedAnimes.map((anime, index) => (
               <AnimeCard type="Normal" anime={anime} key={anime.id + index} />
             ))}
