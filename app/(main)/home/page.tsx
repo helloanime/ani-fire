@@ -146,7 +146,7 @@ const HomePage = () => {
                   <div className="select-none hidden md:block">
                     <p
                       className={cn(
-                        "veritcal-text dark:text-white text-secondary-foreground truncate h-52 text-sm font-medium pr-2 pl-2",
+                        "veritcal-text dark:text-white text-secondary-foreground truncate h-[10rem] text-sm font-medium pr-2 pl-2",
                         index === 0 && "pr-0"
                       )}
                     >
