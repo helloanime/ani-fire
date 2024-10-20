@@ -58,7 +58,7 @@ body::-webkit-scrollbar-thumb {
     --card-foreground: 240 10% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
-    --primary: #db1400;
+    --primary: 5, 100%, 43%;
     --primary-foreground: 355.7 100% 97.3%;
     --secondary: 240 4.8% 95.9%;
     --secondary-foreground: 240 5.9% 10%;
@@ -70,7 +70,7 @@ body::-webkit-scrollbar-thumb {
     --destructive-foreground: 0 0% 98%;
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: #db1400;
+    --ring: 5, 100%, 43%;
     --radius: 0.5rem;
   }
 
@@ -81,7 +81,7 @@ body::-webkit-scrollbar-thumb {
     --card-foreground: 0 0% 95%;
     --popover: 0 0% 9%;
     --popover-foreground: 0 0% 95%;
-    --primary: #db1400;
+    --primary: 5, 100%, 43%;
     --primary-foreground: 355.7 100% 97.3%;
     --secondary: 240 3.7% 15.9%;
     --secondary-foreground: 0 0% 98%;
@@ -93,6 +93,6 @@ body::-webkit-scrollbar-thumb {
     --destructive-foreground: 0 85.7% 97.3%;
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: #db1400;
+    --ring: 5, 100%, 43%;
   }
 }
