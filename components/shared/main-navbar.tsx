@@ -28,7 +28,7 @@ const MainNavbar = () => {
         )}
       >
         <nav className="flex justify-between items-center max-w-screen-2xl z-20 mx-auto w-full">
-          <div className="flex gap-[10pz]items-center">
+          <div className="flex gap-[10px]items-center">
             <ToggleMenuBtn />
 
             <Link href="/home">
