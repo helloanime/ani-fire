@@ -18,10 +18,6 @@ const ToggleMenuBtn = () => {
                 className="invert dark:invert-0"
                 width={24}
               />
-              <p className="text-4xl font-logo text-secondary-foreground dark:text-white leading-none">
-               Anix
-              <span className="text-[#db1400]">Play</span>
-              </p>
             </button>
   )
 }
