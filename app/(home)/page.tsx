@@ -72,7 +72,11 @@ const Home = () => {
         <h2 className="text-2xl text-pretty text-secondary-foreground dark:text-primary-foreground font-semibold">HiAnime.to - The best site to watch anime online for Free</h2>
         <p className="text-muted-foreground text-sm">
          Do you know that according to Google, the monthly search volume for anime related topics is up to over 1 Billion times? Anime is famous worldwide and it is no wonder we've seen a sharp rise in the number of free anime streaming sites.
-         <p>Just like free online movie streaming sites, anime watching sites are not created equally, some are better than the rest, so we've decided to build HiAnime.to to be one of the best free anime streaming site for all anime fans on the world.</p>
+         </p>
+         <p className="text-muted-foreground text-sm">
+         <p className="text-muted-foreground text-sm">
+         Do you know that according to Google, the monthly search volume for anime related topics is up to over 1 Billion times? Anime is famous worldwide and it is no wonder we've seen a sharp rise in the number of free anime streaming sites.
+         </p>
          </p>
       </div>
     </div>
