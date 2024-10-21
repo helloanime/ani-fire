@@ -74,9 +74,7 @@ const Home = () => {
          Do you know that according to Google, the monthly search volume for anime related topics is up to over 1 Billion times? Anime is famous worldwide and it is no wonder we've seen a sharp rise in the number of free anime streaming sites.
          </p>
          <p className="text-muted-foreground text-sm">
-         <p className="text-muted-foreground text-sm">
          Do you know that according to Google, the monthly search volume for anime related topics is up to over 1 Billion times? Anime is famous worldwide and it is no wonder we've seen a sharp rise in the number of free anime streaming sites.
-         </p>
          </p>
       </div>
     </div>
