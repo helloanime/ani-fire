@@ -69,10 +69,11 @@ const Home = () => {
       </div>
 
       <div className="my-8">
-        <h2 className="text-2xl text-pretty text-secondary-foreground dark:text-primary-foreground font-semibold">AniFire: A website designed exclusively for educational purposes, with no intention of generating revenue or any other commercial pursuits.</h2>
+        <h2 className="text-2xl text-pretty text-secondary-foreground dark:text-primary-foreground font-semibold">HiAnime.to - The best site to watch anime online for Free</h2>
         <p className="text-muted-foreground text-sm">
-          This website is ad-free and created by an independent developer. Its intended audience is solely for my developer portfolio. If you accessed this site through word-of-mouth, I kindly request you to exit. Thank you for your understanding.
-        </p>
+         Do you know that according to Google, the monthly search volume for anime related topics is up to over 1 Billion times? Anime is famous worldwide and it is no wonder we've seen a sharp rise in the number of free anime streaming sites.
+         <p>Just like free online movie streaming sites, anime watching sites are not created equally, some are better than the rest, so we've decided to build HiAnime.to to be one of the best free anime streaming site for all anime fans on the world.</p>
+         </p>
       </div>
     </div>
   );
