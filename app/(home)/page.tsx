@@ -46,7 +46,7 @@ const Home = () => {
               <span className="font-medium mr-2 dark:text-primary-foreground text-secondary-foreground">Top search:</span>
                   {TopSearchItems.map((item, index) => (
                     <Link key={item.name + index} href={item.href} className="hover:text-primary duration-300 text-base">
-                      {item.name}{'&apos', '&apos'}
+                      {item.name}{', '}
                     </Link>
                   ))}
             </p>
