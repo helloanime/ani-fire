@@ -13,7 +13,7 @@ const primaryUrl =
   process.env.NODE_ENV !== "production"
     ? "http://localhost:4000"
     : process.env.NEXT_PUBLIC_ANIME_URL;
-const backupUrl = "https://anixplay-api.vercel.app/";
+const backupUrl = "https://api-aniwatch.onrender.com";
 
 const ScheduleAnime = () => {
   const now = useMemo(() => new Date(), [])
