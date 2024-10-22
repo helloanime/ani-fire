@@ -46,7 +46,7 @@ const Home = () => {
               <span className="font-medium mr-2 dark:text-primary-foreground text-secondary-foreground">Top search:</span>
                   {TopSearchItems.map((item, index) => (
                     <Link key={item.name + index} href={item.href} className="hover:text-primary duration-300 text-base">
-                      {item.name}{', '}
+                      {item.name}{'&apos, '&apos}
                     </Link>
                   ))}
             </p>
@@ -71,7 +71,7 @@ const Home = () => {
       <div className="my-8">
         <h2 className="text-2xl text-pretty text-secondary-foreground dark:text-primary-foreground font-semibold">AniFire: A website designed exclusively for educational purposes, with no intention of generating revenue or any other commercial pursuits.</h2>
         <p className="text-muted-foreground text-sm">
-          This website is ad-free and created by an independent developer. Its intended audience is solely for my developer portfolio. If you accessed this site through word-of-mouth, I kindly request you to exit. Thank you for your understanding.
+          hello world
         </p>
       </div>
     </div>
